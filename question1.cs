@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Solutions
+namespace Solution
 {
     public class Team
     {
@@ -82,7 +82,6 @@ namespace Solutions
             teamObj.ChangeTeamName(str);
             Console.WriteLine("Team name of team " + initialName + " changed to " + teamObj.teamName);
 
-            Console.ReadKey();
         }
     }
 }
